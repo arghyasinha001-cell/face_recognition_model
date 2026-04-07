@@ -52,8 +52,8 @@ FaceGuard/
 ### 2. Clone & install
 
 ```bash
-git clone https://github.com/your-username/FaceGuard.git
-cd FaceGuard
+git clone https://github.com/arghyasinha001-cell/face_recognition_model.git
+cd face_recognition_model
 
 python -m venv venv
 # Windows:
