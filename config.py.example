@@ -1,0 +1,21 @@
+# ============================================================
+#  config.py  –  FaceGuard Security System – Local credentials
+# ============================================================
+#  1. Copy this file:   cp config.py.example config.py
+#  2. Fill in your own values below.
+#  3. config.py is .gitignored and will NEVER be committed.
+# ============================================================
+
+# ── Twilio (SMS + voice calls) ──────────────────────────────
+# Sign up at https://www.twilio.com/try-twilio (free trial available)
+TWILIO_SID        = "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+TWILIO_AUTH_TOKEN = "your_auth_token_here"
+TWILIO_FROM       = "+1XXXXXXXXXX"   # Your Twilio number (with country code)
+TWILIO_TO         = "+91XXXXXXXXXX"  # Recipient number (with country code)
+
+# ── Gmail (email alerts with image attachments) ─────────────
+# Use an App Password, NOT your account password.
+# Enable 2-FA → https://myaccount.google.com/apppasswords → create "Mail" app password
+EMAIL_ADDRESS  = "your_sender_email@gmail.com"
+EMAIL_PASSWORD = "xxxx xxxx xxxx xxxx"   # 16-char Gmail App Password
+EMAIL_TO       = "your_recipient_email@gmail.com"
